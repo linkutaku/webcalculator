@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./stylesheets/css/stylesheet.css">
+	<meta charset="UTF-8">
+	<title>calculator</title>
+</head>
+<body>
+	<div id="calculator">
+		<div class="display">
+			<span id="displayspan">0</span>
+		</div>
+		<div class="keyboard">
+			<div class="numboard">
+				<div class="box">
+					<div id="7" class="num btn" onclick="input(this.id)">7</div>
+					<div id="8" class="num btn" onclick="input(this.id)">8</div>
+					<div id="9" class="num btn" onclick="input(this.id)">9</div>
+				</div>
+				<div class="box">
+					<div id="4" class="num btn" onclick="input(this.id)">4</div>
+					<div id="5" class="num btn" onclick="input(this.id)">5</div>
+					<div id="6" class="num btn" onclick="input(this.id)">6</div>
+				</div>
+				<div class="box">
+					<div id="1" class="num btn" onclick="input(this.id)">1</div>
+					<div id="2" class="num btn" onclick="input(this.id)">2</div>
+					<div id="3" class="num btn" onclick="input(this.id)">3</div>
+				</div>
+				<div class="box">
+					<div id="point" class="num btn" onclick="inputpoint(this.id)">.</div>
+					<div id="0" class="num btn" onclick="input(this.id)">0</div>
+					<div id="result" class="num btn" onclick="getresult()">=</div>
+				</div>
+			</div>
+			<div class="oprboard">
+				<div id="" class="opr btn" onclick="clean()">C</div>
+				<div id="div" class="opr btn" onclick="getopr(this.id)">÷</div>
+				<div id="mul" class="opr btn" onclick="getopr(this.id)">×</div>
+				<div id="sub" class="opr btn" onclick="getopr(this.id)">-</div>
+				<div id="add" class="opr btn" onclick="getopr(this.id)">+</div>
+			</div> 
+		</div>
+	</div>
+	<script type="text/javascript" src="./stylesheets/js/calculator.js"></script>
+</body>
+</html>
+
+
+
+				
+				
+				
+				
